@@ -8,7 +8,14 @@
   "repository": "git@github.com:WARDI-Kamal/wardi-portfolio.git",
   "license": "MIT",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "parcel": "parcel src/index.html"
   },
-  "dependencies": {}
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "^8.17.0",
+    "parcel": "^2.6.0"
+  }
 }
